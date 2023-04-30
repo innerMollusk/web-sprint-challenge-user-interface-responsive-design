@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 html {
@@ -129,6 +129,12 @@ header div {
     width: 100%;
     height: 20vh;
     background-color: rgb(68, 113, 148);
+}
+
+.spacer-low {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0, 4, 17);
 }
 
 .spacer-sm {
@@ -277,13 +283,34 @@ footer a {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    
+    h1 {
+        padding: 4%;
+        font-size: 5rem;
+    }
+
+    nav a {
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
 
     /* gallery section */
     .gallery {
         height: auto;
     }
+
+    .gallery img {
+        padding: 2% 0;
+    }
+
+    .spacer-mid {
+        height: 15vh;
+    }
     
+    .spacer-light {
+        display: none;
+    }
+
     /* about us section */
 
     .about {
@@ -292,11 +319,16 @@ footer a {
     
     .about h2 {
         width: 100%;
-        padding-top: 5vh;
+        padding-top: 30%;
     }
     
     .about-container .text {
         width: 85%;
+        padding-top: 30%;
+    }
+
+    .text p {
+        font-size: 2rem;
     }
     
     /* contact us section */
@@ -327,5 +359,24 @@ footer a {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+    }
+
+    .footer-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form-container {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .footer-nav {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .copyright {
+        text-align: center;
     }
 }
