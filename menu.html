@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sprint Challenge - Menu</title>
     <link rel="stylesheet" href="css/menu.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div>
+    <section id="menu">
         <header>
             <h1>BLOOMTECH BAR AND GRILL</h1>
             <nav>
@@ -24,103 +24,101 @@
                 </div>
             </nav>  
         </header>
-        <div class="spacer"></div>
-        <section id="menu">
-            <article class="menu">
-                <h2>Food & Drink</h2>
-                <div class="menu-item-container">
-                    <div class="menu-items">
-                        <h3>Drinks</h3>
-                        <div class="item">
-                            <p>Soda<span class="price">$2<span><br>Coke products</p>
-                        </div>
-                        <div class="item">
-                            <p>Coffee<span class="price">$2</span><br>Cream and sugar available upon request</p>
-                        </div>               
-                        <div class="item">
-                            <p>Beer<span class="price">$5</span><br>Delicious and refreshing</p>
-                        </div>                
-                        <div class="item">
-                            <p>Wine<span class="price">$5</span><br>Light and fruity</p>
-                        </div>
-                        <div class="item">
-                            <p>Cocktails<span class="price">$10</span><br>Ask about our specials</p>
-                        </div>  
-                    </div>            
-                    <div class="menu-items">
-                        <h3>Appetizers</h3>
-                        <div class="item">
-                            <p>Fried Pickles<span class="price">$6<span><br>Golden and crispy with tang!<br><span class="italic">(V)</span></p>
-                        </div>
-                        <div class="item">
-                            <p>Buffalo Wings<span class="price">$10</span><br>5 wings per order; mild, medium, or hot sauce and served with bleu cheese/ranch and carrot sticks<br><span class="italic">(GF)</span></p>
-                        </div>               
-                        <div class="item">
-                            <p>Poutine<span class="price">$5</span><br>Homemade fries topped with everything but the kitchen sink</p>
-                        </div>                  
-                    </div>     
-                </div>
-                <div class="menu-item-container">
-                    <div class="menu-items">
-                        <h3>Soup and Salad</h3>
-                        <div class="item">
-                            <p>House Salad<span class="price">$8<span><br>Spinach and arugala with all the good veggies; add chicken for $6<br><span class="italic">(GF, V)</span></p>
-                        </div>
-                        <div class="item">
-                            <p>French Onion Soup<span class="price">$4</span><br>Served with a thick topping of cheese and delicious bread</p>
-                        </div>               
-                        <div class="item">
-                            <p>Cheddar Broccoli Soup<span class="price">$5</span><br>Creamy and filling<br><span class="italic">(GF)</span></p>
-                        </div>  
-                    </div>            
-                    <div class="menu-items">
-                        <h3>Entrees</h3>
-                        <div class="item">
-                            <p>Ribeye Steak<span class="price">$32<span><br>Served with mashed potatoes and roasted asparagus</p>
-                        </div>
-                        <div class="item">
-                            <p>Big Boy Burger<span class="price">$14</span><br>Beef or black bean burger on homemade bun served with fries<br><span class="italic">Black Bean Burger: (V)</span></p>
-                        </div>               
-                        <div class="item">
-                            <p>Pork Shortrib<span class="price">$18</span><br>Melt off the bone finger food<br><span class="italic">(GF)</span></p>
-                        </div>                  
-                    </div>     
-                </div>        
-                <div class="desserts">
-                    <h3>Desserts</h3>
+    </section>
+    <div class="spacer"></div>
+        <article class="menu">
+            <h2>Food & Drink</h2>
+            <div class="menu-item-container">
+                <div class="menu-items">
+                    <h3>Drinks</h3>
                     <div class="item">
-                        <p>Flourless Chocolate Cake<span class="price">$7</span><br>Gooey and chocolatey heaven<br><span class="italic">(GF)</span></p>
+                        <p>Soda<span class="price">$2</span><br>Coke products</p>
                     </div>
                     <div class="item">
-                        <p>Cookies and Ice Cream<span class="price">$6</span><br>Choose 2 cookies and 1 scoop of ice cream from an assortment</p>
+                        <p>Coffee<span class="price">$2</span><br>Cream and sugar available upon request</p>
+                    </div>               
+                    <div class="item">
+                        <p>Beer<span class="price">$5</span><br>Delicious and refreshing</p>
+                    </div>                
+                    <div class="item">
+                        <p>Wine<span class="price">$5</span><br>Light and fruity</p>
                     </div>
                     <div class="item">
-                        <p>Creme Brulee<span class="price">$8</span><br>Crispy scorched top containing a perfect, smooth custard<br><span class="italic">(GF)</span></p>
-                    </div>   
-                </div>
-            </article>
-        </section>
-        <div class="spacer-sm"></div>
-        <footer>
-            <div class="footer-flex">
-                <div class="form-container">
-                    <h4>Join our mailing list!</h4>
-                    <div class="email-form">
-                        <input type="email" name="email" id="email" placeholder="Email Address"><input type="submit" value="Sign Up">
+                        <p>Cocktails<span class="price">$10</span><br>Ask about our specials</p>
+                    </div>  
+                </div>            
+                <div class="menu-items">
+                    <h3>Appetizers</h3>
+                    <div class="item">
+                        <p>Fried Pickles<span class="price">$6</span><br>Golden and crispy with tang!<br><span class="italic">(V)</span></p>
                     </div>
-                </div>
-                <nav>
-                    <div class="links">
-                        <a href="#menu">Menu</a>
-                        <a href="#reservations">Reservations</a>
-                        <a href="#specials">Special Offers</a>
-                        <a href="#contact">Contact</a>
-                    </div>
-                </nav>
+                    <div class="item">
+                        <p>Buffalo Wings<span class="price">$10</span><br>5 wings per order; mild, medium, or hot sauce and served with bleu cheese/ranch and carrot sticks<br><span class="italic">(GF)</span></p>
+                    </div>               
+                    <div class="item">
+                        <p>Poutine<span class="price">$5</span><br>Homemade fries topped with everything but the kitchen sink</p>
+                    </div>                  
+                </div>     
             </div>
-            <p class="copyright">©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>  
-        </footer>
-    </div>
+            <div class="menu-item-container">
+                <div class="menu-items">
+                    <h3>Soup and Salad</h3>
+                    <div class="item">
+                        <p>House Salad<span class="price">$8</span><br>Spinach and arugala with all the good veggies; add chicken for $6<br><span class="italic">(GF, V)</span></p>
+                    </div>
+                    <div class="item">
+                        <p>French Onion Soup<span class="price">$4</span><br>Served with a thick topping of cheese and delicious bread</p>
+                    </div>               
+                    <div class="item">
+                        <p>Cheddar Broccoli Soup<span class="price">$5</span><br>Creamy and filling<br><span class="italic">(GF)</span></p>
+                    </div>  
+                </div>            
+                <div class="menu-items">
+                    <h3>Entrees</h3>
+                    <div class="item">
+                        <p>Ribeye Steak<span class="price">$32</span><br>Served with mashed potatoes and roasted asparagus</p>
+                    </div>
+                    <div class="item">
+                        <p>Big Boy Burger<span class="price">$14</span><br>Beef or black bean burger on homemade bun served with fries<br><span class="italic">Black Bean Burger: (V)</span></p>
+                    </div>               
+                    <div class="item">
+                        <p>Pork Shortrib<span class="price">$18</span><br>Melt off the bone finger food<br><span class="italic">(GF)</span></p>
+                    </div>                  
+                </div>     
+            </div>        
+            <div class="desserts">
+                <h3>Desserts</h3>
+                <div class="item">
+                    <p>Flourless Chocolate Cake<span class="price">$7</span><br>Gooey and chocolatey heaven<br><span class="italic">(GF)</span></p>
+                </div>
+                <div class="item">
+                    <p>Cookies and Ice Cream<span class="price">$6</span><br>Choose 2 cookies and 1 scoop of ice cream from an assortment</p>
+                </div>
+                <div class="item">
+                    <p>Creme Brulee<span class="price">$8</span><br>Crispy scorched top containing a perfect, smooth custard<br><span class="italic">(GF)</span></p>
+                </div>   
+            </div>
+        </article>
+    <div class="spacer-sm"></div>
+    <footer>
+        <div class="footer-flex">
+            <div class="form-container">
+                <h4>Join our mailing list!</h4>
+                <div class="email-form">
+                    <input type="email" name="email" id="email" placeholder="Email Address"><button>Sign Up</button>
+                </div>
+            </div>
+            <nav>
+                <div class="links">
+                    <a href="#menu">Menu</a>
+                    <a href="#reservations">Reservations</a>
+                    <a href="#specials">Special Offers</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+        <p class="copyright">©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>  
+    </footer>
 </body>
 
 </html>
