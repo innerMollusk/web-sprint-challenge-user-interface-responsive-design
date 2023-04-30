@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 html {
@@ -65,6 +66,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, a, i {
     text-decoration: none;
+    color: rgb(225, 239, 230);
 }
 
 h1 {
@@ -97,18 +99,13 @@ header {
 header div {
     background-color: rgb(0, 4, 17, .6)
 }
-header h1 {
-    color: rgb(225, 239, 230);
-}
 
 .links a {
-    color: rgb(225, 239, 230);
     padding: 2%;
 }
 
 .icons {
     font-size: 3rem;
-    color: rgb(225, 239, 230);
 }
 
 .icons i {
@@ -116,11 +113,24 @@ header h1 {
 }
 
 /* spacers */
-.spacer {
+.spacer-mid {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(0, 4, 17);
+}
+
+.spacer-low {
     width: 100%;
     height: 20vh;
     background-color: rgb(0, 4, 17);
 }
+
+.spacer-light {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(68, 113, 148);
+}
+
 .spacer-sm {
     width: 100%;
     height: 10vh;
@@ -133,12 +143,18 @@ header h1 {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    /* margin-bottom: 15%; */
+}
+
+.gallery div h2 {
+    padding-top: 4%;
+    padding-bottom: 2%;
 }
 
 /* about us section */
 .about {
     width: 100%;
-    height: 75vh;
+    height: 100vh;
     text-align: center;
     background-image: url("../img/staff-cooks.jpg");
     background-size: cover;
@@ -157,10 +173,12 @@ header h1 {
 
 .about h2 {
     width: 100%;
+    padding: 3%;
 }
 
 .about-container .text {
-    width: 50%;
+    width: 70%;
+    padding: 3.5%;
 }
 
 /* contact us section */
@@ -214,8 +232,46 @@ header h1 {
 footer {
     width: 100%;
     height: 15vh;
+    margin-top: .1%;
     padding-top: 2.5vh;
+    background-color: rgb(0, 4, 17);
+}
+
+footer h4 {
     font-size: 3rem;
+    text-align: center;
+}
+
+.form-container {
+    width: 40%;
+    padding-left: 4%;
+}
+
+.email-form input {
+    width: 80%;
+    margin-left: 4%;
+}
+
+footer a {
+    font-size: 2rem;
+    text-align: center;
+    padding: 3%;
+    margin-left: 3%;
+}
+
+.footer-flex {
+    display: flex;
+}
+
+.footer-nav {
+    width: 60%;
+    margin-left: 5%;
+}
+
+.copyright {
+    font-size: 1.2rem;
+    text-align: right;
+    padding: 0 20%;
 }
 
 /* mobile media query */
